@@ -29,6 +29,10 @@ import java.util.Scanner;
 
 Scanner 객체를 생성하여 표준 입력(System.in)과 연결합니다.
 
+```
+Scanner sc = new Scanner(System.in);
+```
+
 > 프로그램이 실행 중에 사용자로부터 입력을 받기 위함입니다. 표준 입력(System.in)은 기본적으로 키보드의 입력을 의미하고, 프로그램 실행 중에 사용자의 입력을 받을 수 있습니다.
 
 > Scanner 클래스는 파일, 문자열, 네트워크 등의 다양한 입력을 받을 수 있습니다.
