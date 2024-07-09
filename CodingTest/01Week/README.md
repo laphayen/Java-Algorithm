@@ -1,19 +1,20 @@
 # 1주차 - 기본 자바 다루기
 
-* * *
-
 ## 백준 기준 기본틀
 
-<pre><code>public class Main() {
+```
+public class Main() {
     public static void main(String[] args) {
         
     }
-}<code></pre>
+}
+```
 
 ## 기본 출력 - 개행
 
-<pre><code>System.out.println();<code></pre>
-
+```
+System.out.println();
+```
 
 ## 기본 입력
 
@@ -22,7 +23,9 @@
 해당 클래스를 사용하기 위해 java.util 패키지에 포함된 패키지를 import를 합니다.
 (모듈의 이름은 대문자)
 
-<pre><code>import java.util.Scanner;<code></pre>
+```
+import java.util.Scanner;
+```
 
 Scanner 객체를 생성하여 표준 입력(System.in)과 연결합니다.
 
@@ -33,11 +36,14 @@ Scanner 객체를 생성하여 표준 입력(System.in)과 연결합니다.
 ## 공백 기준 입력
 
 다음과 같은 공백 기준으로 2가지의 입력을 받는 경우입니다.
-<pre><code>7 3</code></pre>
+```
+7 3
+```
 
 Scanner는 기본적으로 공백, 탭, 줄바꿈 등을 구분자로 사용하기 때문에 별도의 처리가 필요하지 않습니다.
 
-<pre><code>import java.util.Scanner;
+```
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,22 +54,5 @@ public class Main {
 
         System.out.println(A + B);
     }
-}</code></pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<pre><code><code></pre>
+}
+```
