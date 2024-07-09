@@ -60,3 +60,32 @@ public class Main {
     }
 }
 ```
+
+## 형변환(Casting)
+
+* 문자(char)에서 숫자(int)으로 형변환
+
+```
+int c = '7';
+
+// 방법 1: 문자 '0'의 아스키 값을 이용한 변환
+int num1 = c - '0';
+System.out.println(num1);
+
+// 방법 2: Character 클래스의 메소드를 이용한 변환
+int num2 = Character.getNumericValue(c);
+System.out.println(num2);
+
+// 방법 3: Integer 클래스의 메소드를 이용한 변환
+int num3 = Integer.parseInt(String.valueOf(c));
+System.out.println(num3);
+```
+
+* 문자열(String)에서 숫자(int)로 형변환
+
+```
+String s = "777";
+
+int num = Integer.parseInt(s);
+System.out.println(num);
+```
